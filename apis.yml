@@ -1,7 +1,12 @@
 aid: universal-health-services
-url: https://raw.githubusercontent.com/api-evangelist/universal-health-services/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/universal-health-services/refs/heads/main/apis.yml
 modified: '2026-03-21'
 apis: []
 common:
   - type: Website
     url: https://www.universal-health-services.com
+description: >-
+  Universal Health Services is one of the nation's largest hospital management companies,
+  operating acute care hospitals, behavioral health facilities, and ambulatory care
+  access points across the United States and the United Kingdom.
