@@ -1,0 +1,87 @@
+name: Universal Health Services Vocabulary
+description: Vocabulary and taxonomy for Universal Health Services (UHS), one of the largest hospital management companies in the US operating acute care hospitals, behavioral health facilities, and ambulatory care centers.
+version: '1.0.0'
+created: '2026-05-03'
+modified: '2026-05-03'
+
+domains:
+  - name: Hospital Services
+    description: Types of healthcare services and facilities
+    terms:
+      - name: Acute Care Hospital
+        definition: A facility providing short-term, intensive medical and surgical treatment for conditions that require immediate care
+      - name: Behavioral Health Facility
+        definition: A healthcare facility providing mental health and substance use disorder treatment including inpatient psychiatric hospitals and residential treatment centers
+      - name: Ambulatory Care
+        definition: Healthcare services provided on an outpatient basis where patients do not require overnight hospital admission
+      - name: Emergency Department
+        definition: A hospital unit that provides 24/7 emergency medical care for acute illness and traumatic injuries
+        aliases:
+          - ED
+          - Emergency Room
+          - ER
+      - name: Intensive Care Unit
+        definition: A specialized hospital ward providing intensive medical care for critically ill patients
+        aliases:
+          - ICU
+      - name: Inpatient
+        definition: A patient admitted to a hospital for an overnight stay or longer for treatment, surgery, or monitoring
+      - name: Outpatient
+        definition: A patient who receives medical treatment without being admitted to a hospital
+
+  - name: Healthcare Interoperability
+    description: Health data exchange standards and APIs
+    terms:
+      - name: FHIR
+        definition: Fast Healthcare Interoperability Resources - a standard for exchanging healthcare information electronically, developed by HL7
+        aliases:
+          - Fast Healthcare Interoperability Resources
+          - HL7 FHIR
+      - name: Patient Access API
+        definition: A FHIR-based API mandated by CMS that gives patients electronic access to their health insurance claims, clinical, and coverage information
+      - name: Provider Directory API
+        definition: A FHIR-based API that makes health plan provider and facility information publicly available
+      - name: Payer-to-Payer API
+        definition: A FHIR-based API enabling health plans to exchange patient data when a member changes their insurance
+      - name: EHR
+        definition: Electronic Health Record - a digital version of a patient's medical history maintained over time by a healthcare provider
+        aliases:
+          - Electronic Health Record
+          - EMR
+          - Electronic Medical Record
+      - name: HIPAA
+        definition: Health Insurance Portability and Accountability Act - US federal law establishing standards for protecting sensitive patient health information
+      - name: CMS
+        definition: Centers for Medicare and Medicaid Services - the federal agency that administers Medicare, Medicaid, and the ACA marketplace
+      - name: HL7
+        definition: Health Level 7 - an international standards organization providing frameworks for the exchange of electronic health information
+
+  - name: Clinical Operations
+    description: Clinical care delivery concepts
+    terms:
+      - name: Admission
+        definition: The formal process of accepting a patient for inpatient treatment at a hospital facility
+      - name: Discharge
+        definition: The formal release of a patient from inpatient care upon completion of treatment
+      - name: Care Coordination
+        definition: Organizing patient care activities and sharing information among all participants concerned with a patient's care to achieve safer outcomes
+      - name: Census
+        definition: The number of inpatient beds occupied at a given time, used to measure hospital capacity utilization
+      - name: Diagnosis-Related Group
+        definition: A patient classification system grouping similar clinical conditions to standardize hospital reimbursement
+        aliases:
+          - DRG
+
+  - name: Financial Operations
+    description: Healthcare financial and reimbursement concepts
+    terms:
+      - name: Revenue Cycle Management
+        definition: The financial process managing clinical and administrative functions related to claims processing, payment, and revenue generation
+        aliases:
+          - RCM
+      - name: Insurance Verification
+        definition: The process of verifying a patient's insurance coverage and benefits prior to providing services
+      - name: Prior Authorization
+        definition: Approval required from a health insurer before a patient can receive certain medications, procedures, or services
+      - name: Managed Care
+        definition: A health care delivery system organized to manage cost, utilization, and quality through networks of providers

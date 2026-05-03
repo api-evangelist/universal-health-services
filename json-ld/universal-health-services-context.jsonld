@@ -1,0 +1,67 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "uhs": "https://api-evangelist.github.io/universal-health-services/vocabulary#",
+    "fhir": "http://hl7.org/fhir/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "Hospital": "schema:Hospital",
+    "BehavioralHealthFacility": "uhs:BehavioralHealthFacility",
+    "MedicalClinic": "schema:MedicalClinic",
+    "Patient": "schema:Patient",
+    "MedicalCondition": "schema:MedicalCondition",
+    "MedicalProcedure": "schema:MedicalProcedure",
+    "Physician": "schema:Physician",
+    "FHIRBundle": "uhs:FHIRBundle",
+    "FHIRPatient": "uhs:FHIRPatient",
+    "FHIREncounter": "uhs:FHIREncounter",
+
+    "facilityId": {
+      "@id": "uhs:facilityId",
+      "@type": "xsd:string"
+    },
+    "npi": {
+      "@id": "uhs:npi",
+      "@type": "xsd:string"
+    },
+    "admissionDate": {
+      "@id": "uhs:admissionDate",
+      "@type": "xsd:date"
+    },
+    "dischargeDate": {
+      "@id": "uhs:dischargeDate",
+      "@type": "xsd:date"
+    },
+    "drg": {
+      "@id": "uhs:drg",
+      "@type": "xsd:string"
+    },
+    "icd10Code": {
+      "@id": "uhs:icd10Code",
+      "@type": "xsd:string"
+    },
+    "fhirId": {
+      "@id": "fhir:id",
+      "@type": "xsd:string"
+    },
+    "name": {
+      "@id": "schema:name"
+    },
+    "description": {
+      "@id": "schema:description"
+    },
+    "address": {
+      "@id": "schema:address"
+    },
+    "telephone": {
+      "@id": "schema:telephone"
+    },
+    "medicalSpecialty": {
+      "@id": "schema:medicalSpecialty"
+    },
+    "availableService": {
+      "@id": "schema:availableService"
+    }
+  }
+}
