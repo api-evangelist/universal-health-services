@@ -21,6 +21,8 @@ maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/uhs
   - type: Website
     url: https://www.universal-health-services.com
   - type: Wikipedia
