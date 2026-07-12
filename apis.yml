@@ -28,3 +28,5 @@ common:
     url: https://www.universal-health-services.com
   - type: Wikipedia
     url: https://en.wikipedia.org/wiki/Universal_Health_Services
+  - url: https://uhs.com/feed/
+    type: Blog
