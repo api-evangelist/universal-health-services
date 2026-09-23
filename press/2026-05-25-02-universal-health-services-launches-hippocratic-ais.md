@@ -1,7 +1,9 @@
 ---
 title: Universal Health Services Launches Hippocratic AI's ...
 url: https://uhs.com/news/universal-health-services-launches-hippocratic-ais-generative-ai-healthcare-agents-to-assist-with-post-discharge-patient-engagement/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Universal Health Services" press release artificial intelligence'
 position: 2
 source: serpapi-google

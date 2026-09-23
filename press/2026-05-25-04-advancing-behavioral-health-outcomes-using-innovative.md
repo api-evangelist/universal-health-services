@@ -1,7 +1,9 @@
 ---
 title: Advancing Behavioral Health Outcomes Using Innovative ...
 url: https://uhs.com/news/advancing-behavioral-health-outcomes-using-innovative-artificial-intelligence-ai/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Universal Health Services" press release artificial intelligence'
 position: 4
 source: serpapi-google

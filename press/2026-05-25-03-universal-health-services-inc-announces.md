@@ -1,7 +1,9 @@
 ---
 title: UNIVERSAL HEALTH SERVICES, INC. ANNOUNCES ...
 url: https://www.prnewswire.com/news-releases/universal-health-services-inc-announces-financial-results-for-the-three-month-period-ended-march-31-2026-302754586.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Universal Health Services" press release artificial intelligence'
 position: 3
 source: serpapi-google

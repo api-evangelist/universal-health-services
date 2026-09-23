@@ -1,7 +1,9 @@
 ---
 title: UHS News Releases | UHS, King of Prussia, PA
 url: https://uhs.com/news-releases/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Universal Health Services" press release artificial intelligence'
 position: 1
 source: serpapi-google
